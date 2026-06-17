@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        @media only screen and (min-width: 268px) {
+
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .pop h2 {
+            margin-bottom: auto;
+            text-align: center;
+            color: black;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            color: rgb(156, 67, 15);
+            padding: 15px 30px;
+        }
+        .header img {
+            width: 80px;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .menu a {
+            color: rgb(166, 71, 37);
+            text-decoration: none;
+            transition: 0, 5s;
+        }
+        .menu a:hover {
+            color: rgb(249, 247, 247);
+            background-color: rgb(145, 57, 22);
+            padding: 10px;
+            border-radius: 8px;
+            transform: translateY(-5);
+            filter: drop-shadow(1px 1px 2px rgb(228, 98, 120));
+        }
+        .icon {
+            color: #994518;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .col-6 img {
+            border-radius: 20px;
+        }
+        .list {
+            display: flex;
+            gap: 20px;
+            margin: 10px 50px;
+        }
+        .box {
+            text-align: center;
+            width: 150px;
+            border-radius: 10px;
+            background-color: rgb(144, 50, 29);
+            padding: 15px;
+        }
+        .box img {
+            width: 100px;
+        }
+        .box h2 {
+            color: black;
+        }
+        .box p {
+            color: black;
+        }
+        .zin {
+            display: flex;
+            gap: 20px;
+            margin: 10px 50px;
+        }
+        .box {
+            text-align: center;
+            width: 150px;
+            border-radius: 10px;
+            background-color: rgb(111, 60, 13);
+            padding: 15px;
+        }
+        .box img {
+            width: 100px;
+        }
+        .box h2 {
+            color: black;
+        }
+        .box p {
+            color: black;
+        }
+        .jpp img {
+            width: 600px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+        }
+        .bb {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .box a {
+            color: rgb(125, 64, 17);
+            text-decoration: none;
+            transition: 0, 5s;
+        }
+        .bbb a:hover {
+            color: rgb(244, 225, 225);
+        background-color: rgb(117, 62, 28);
+            padding: 10px;
+            border-radius: 8px;
+            transform: translateY(-5);
+            filter: drop-shadow(1px 1px 2px rgb(137, 68, 31));
+
+        }
+        h1{
+            text-align: center;
+        }
+        iframe{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="brand">
+            <img src="pic/photo_2026-06-10_10-31-18.jpg" alt="">
+            <h3>Tube Coffe</h3>
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#Product">Product</a>
+            <a href="#Service">Service</a>
+            <a href="#Contact">Contact</a>
+            <a href="#About">About</a>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div style=" padding:20px;">
+        <h1 style="color:#43140c; text-align:center;">
+            Welcome To Product
+        </h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style=" padding:20px;">
+        <h1 style="color:#66320f; text-align:center;">
+            Menu
+        </h1>
+    </div>
+    <br>
+    <div id="Product" class="row" style="background-color:white; color: rgb(115, 68, 23);">
+        <div class="col-3">
+            <h1>Weicome To <br>Tube Coffe.</h1>
+            <br
+            <p>Proudly Cambodian: A 100% home-grown brand competing with global chains.Affordable Quality: Premium coffee priced perfectly for students and workers daily.</p>
+            <br><br>
+        </div>
+        <div>
+            <div>
+                <div class="list">
+                    <div class="col-3" style="text-align: center;">
+                        <div class="box">
+                            <img src="https://tubecafecambodia.com/wp-content/uploads/2025/01/Wildberry-Raspberry-Tea-1-683x1024-1.png" alt="">
+                            <h2> Iced Milk Coffee</h2>
+                            <p>Estimated Price: ~$2.43</p>
+                        </div>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <div class="box">
+                            <img src="https://tubecafecambodia.com/wp-content/uploads/2025/01/Fresh-Passion-Juice-1-683x1024-1.png" alt="">
+                            <h2>Passion Juice</h2>
+                            <p>Estimated Price: ~$2.43 </p>
+                        </div>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <div class="box">
+                            <img src="https://tubecafecambodia.com/wp-content/uploads/2025/01/Thnol-Coffee-1-683x1024-1.png" alt="">
+                            <h2>Iced Latte </h2>
+                            <p> Estimated Price: $2.40 </p>
+                        </div>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <div class="box">
+                            <img src="https://tubecafecambodia.com/wp-content/uploads/2025/01/Green-Milk-Tea-1-683x1024-1.png" alt="">
+                            <h2>Matcha Latte </h2>
+                            <p>Estimated Price: $2.40</p>
+                        </div>
+                    </div>
+                    <div class="col-3" style="text-align: center;">
+                        <div class="box">
+                            <img src="https://tubecafecambodia.com/wp-content/uploads/2025/01/Latte-1-683x1024-1.png" alt="">
+                            <h2>Iced Americano</h2>
+                            <p>Estimated Price: ~$2.07</p>
+                        </div>
+                    </div>
+            </div>
+            <div id="Service" class="row"
+                style="background-color: rgb(137, 84, 55); display: flex; align-items: center; color: rgb(67, 60, 54); ">
+                <div class="col-6">
+                    <img src="pic/photo_2026-06-10_10-31-22.jpg" width="100%" alt="">
+                </div>
+                <div class="col-6" style="padding-left: 35px;">
+                    <h1>Tube COffe<br> Brand</h1>
+                    <br><br>
+                    <p>Tube Coffee is a fast-growing coffee brand from Cambodia, founded by local entrepreneurs to provide high-quality, affordable coffee for busy, modern lifestyles.</p>
+                    <br>
+    <p>The brand gained massive popularity on social media for its vibrant, energetic identity and unique local flavors that rival international chains. It perfectly blends modern convenience with authentic Cambodian tastes, featured in signature drinks like Cafe Thnol, Palm Latte, and refreshing teas.</p>
+                </div>
+            </div>
+            <br>
+            <div style=" padding:20px;">
+                <h1 style="color:#5b2a14; text-align:center;">
+                    Contact
+                </h1>
+            </div>
+            <br>
+            <div id="Contact" class="row"
+                style="background-color:rgb(112, 74, 74); display: flex; align-items: center; color: rgb(80, 49, 12); border-radius: 20px;  ;">
+                <div class="col-6" style="padding-left: 35px;">
+                    <div class="jpp">
+                        <img src="pic/photo_2026-06-10_10-31-07.jpg" alt="">
+                    </div>
+                    </div>
+                <div class="col-3">
+                    <div class="zin">
+                    </div>
+                    <center>
+                        <h4>Using From</h4>
+                        <br><br>
+                        <form style="background-color: rgb(215, 226, 237); width:250px; border-radius:10px;">
+                            <h5>Sign Form</h5>
+                            <labe for="">Name:</label>
+                                <input type="text">
+                                <br><br>
+                                <label for="">E-mall:</label>
+                                <input type="text">
+                                <br><br>
+                                <label for="">Phone:</label>
+                                <input type="text">
+                                <br><br>
+                                <label for="">Password</label>
+                                <input type="text">
+                                <br><br>
+                                <label for="">Gender</label>
+                                <input type="radio" name="sex"> Male
+                                <input type="radio" name="sex"> Female
+                                <br><br>
+                                <label for="">Date of Birt:</label>
+                                <input type="date">
+                                <br><br>
+                                <label for="">Where you from?</label>
+                                <select>
+                                    <option value="1">Phnom Penh</option>
+                                    <option value="2">Banteay Meanchey</option>
+                                    <option value="3">Battambang</option>
+                                    <option value="4">Kampong Cham</option>
+                                    <option value="5">Kampong Chhnang</option>
+                                    <option value="6">Kampong Speu</option>
+                                    <option value="7">Kampong Thom</option>
+                                    <option value="8">Kampot</option>
+                                    <option value="9">Kandal</option>
+                                    <option value="10">Kep</option>
+                                    <option value="11">Koh Kong</option>
+                                    <option value="12">Kratie</option>
+                                    <option value="13">Mondulkiri</option>
+                                    <option value="14">Oddar Meanchey</option>
+                                    <option value="15">Pailin</option>
+                                    <option value="16">Preah Sihanouk</option>
+                                    <option value="17">Preah Vihear</option>
+                                    <option value="18">Prey Veng</option>
+                                    <option value="19">Pursat</option>
+                                    <option value="20">Ratanakiri</option>
+                                    <option value="21">Siem Reap</option>
+                                    <option value="22">Stung Treng</option>
+    <option value="23">Svay Rieng</option>
+                                    <option value="24">Takeo</option>
+                                    <option value="25">Tboung Khmum</option>
+                                </select>
+                                <br>
+                                <label for="">Picture</label>
+                                <input type="file">
+                                <br><br>
+                                <input type="checkbox">Do you agree?
+                                <br><br>
+                                <input type="submit">
+                        </form>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br><br>
+            <div style=" padding:20px;">
+                <h1 style="color:#6e4025; text-align:center;">
+                    Our Team
+                    </h1>
+            </div>
+            <br>
+            <div id="About" class="bb">
+                <div class="col-4" style="text-align: center;">
+                    <div class="box">
+                        <img src="pic/photo_2026-06-10_10-40-34.jpg" alt="">
+                        <h2> Name</h2>
+                        <p>Yun Theana</p>
+                    </div>
+                </div>
+                <div class="col-4" style="text-align: center;">
+                    <div class="box">
+                        <img src="pic/leng.jpg" alt="">
+                        <h2> Name</h2>
+                        <p>Lon Meng leang</p>
+                        <p>Leader</p>
+                    </div>
+                </div>
+                <div class="col-4" style="text-align: center;">
+                    <div class="box">
+                        <img src="pic/tola.JPG" alt="">
+                        <h2> Name</h2>
+                        <p>Thun Tola</p>
+                    </div>
+                </div>
+                <div class="col-4" style="text-align: center;">
+                    <div class="box">
+                        <img src="pic/Messenger_creation_1563206220964962.jpeg" alt="">
+                        <h2> Name</h2>
+                        <p>Sokrothanak Sombath</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+        <h1>Goole Map</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7817.986396777996!2d104.89779866578286!3d11.552344954400734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951e5c213a145%3A0x66c8a7bf57438b99!2z4Z6S4Z-S4Z6Z4Z684Z6UIOGegOGetuGeoOGfkuGenOGfgSDhnpbhn5Lhnprhn4fhnpjhnrvhnpPhnrjhnprhn4nhn4Hhno8!5e0!3m2!1skm!2skh!4v1778040414836!5m2!1skm!2skh" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+</body>
+</html>

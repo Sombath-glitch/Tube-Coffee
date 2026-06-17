@@ -1,0 +1,172 @@
+ .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .pop h2 {
+            margin-bottom: auto;
+            text-align: center;
+            color: black;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            color: rgb(156, 67, 15);
+            padding: 15px 30px;
+        }
+        .header img {
+            width: 80px;
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .menu a {
+            color: rgb(166, 71, 37);
+            text-decoration: none;
+            transition: 0, 5s;
+        }
+        .menu a:hover {
+            color: rgb(249, 247, 247);
+            background-color: rgb(145, 57, 22);
+            padding: 10px;
+            border-radius: 8px;
+            transform: translateY(-5);
+            filter: drop-shadow(1px 1px 2px rgb(228, 98, 120));
+        }
+        .icon {
+            color: #994518;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .col-6 img {
+            border-radius: 20px;
+        }
+        .list {
+            display: flex;
+            gap: 20px;
+            margin: 10px 50px;
+        }
+        .box {
+            text-align: center;
+            width: 150px;
+            border-radius: 10px;
+            background-color: rgb(144, 50, 29);
+            padding: 15px;
+        }
+        .box img {
+            width: 100px;
+        }
+        .box h2 {
+            color: black;
+        }
+        .box p {
+            color: black;
+        }
+        .zin {
+            display: flex;
+            gap: 20px;
+            margin: 10px 50px;
+        }
+        .box {
+            text-align: center;
+            width: 150px;
+            border-radius: 10px;
+            background-color: rgb(111, 60, 13);
+            padding: 15px;
+        }
+        .box img {
+            width: 100px;
+        }
+        .box h2 {
+            color: black;
+        }
+        .box p {
+            color: black;
+        }
+        .jpp img {
+            width: 600px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+        }
+        .bb {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .box a {
+            color: rgb(125, 64, 17);
+            text-decoration: none;
+            transition: 0, 5s;
+        }
+        .bbb a:hover {
+            color: rgb(244, 225, 225);
+        background-color: rgb(117, 62, 28);
+            padding: 10px;
+            border-radius: 8px;
+            transform: translateY(-5);
+            filter: drop-shadow(1px 1px 2px rgb(137, 68, 31));
+
+        }
+        h1{
+            text-align: center;
+        }
+        iframe{
+            text-align: center;
+        }
